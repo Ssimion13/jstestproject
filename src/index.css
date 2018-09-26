@@ -3,14 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.App {
+  background-color: whitesmoke;
+}
 
 
 .searchBoxDiv {
-  background-color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .inputHolder {
@@ -24,4 +27,36 @@ body {
   width: 250px;
   height: 20px;
   margin-top: 10px;
+}
+
+.mappedResultsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid grey;
+  margin-top: 20px;
+}
+
+.mappedResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  background-color: cornsilk;
+  padding: 40px;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.userInformation {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.searchButton{
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
 }
